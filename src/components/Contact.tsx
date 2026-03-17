@@ -8,13 +8,13 @@ import { SiUpwork, SiWhatsapp } from 'react-icons/si'
 
 // ✏️ REPLACE with your actual contact info
 const contacts = {
-  email: 'josephtide@email.com',
-  linkedin: 'https://linkedin.com/in/YOUR_LINKEDIN',
-  github: 'https://github.com/YOUR_GITHUB_USERNAME',
-  twitter: 'https://twitter.com/YOUR_TWITTER',
-  whatsapp: 'https://wa.me/234XXXXXXXXXX',
-  upwork: 'https://www.upwork.com/freelancers/YOUR_UPWORK_PROFILE',
-  phone: '+234 XXX XXX XXXX',
+  email: 'ifeoluwaolutide1@gmail.com',
+  linkedin: 'www.linkedin.com/in/ifeoluwaolutide',
+  github: 'https://github.com/ifeoluwaolutide77-arch',
+  twitter: 'https://twitter.com/heiskintsugi',
+  whatsapp: 'https://wa.me/2348146406950',
+  upwork: 'https://www.upwork.com/freelancers/olutiide?mp_source=share',
+  phone: '+234 814 640 6950',
 }
 
 const socialLinks = [

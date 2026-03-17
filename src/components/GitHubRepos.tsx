@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer'
 import { FiGithub, FiStar, FiGitBranch, FiExternalLink, FiCode } from 'react-icons/fi'
 
 // ⚠️ REPLACE with your actual GitHub username
-const GITHUB_USERNAME = 'YOUR_GITHUB_USERNAME'
+const GITHUB_USERNAME = 'ifeoluwaolutide77-arch'
 
 interface Repo {
   id: number
@@ -118,7 +118,7 @@ export default function GitHubRepos() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    if (!inView || GITHUB_USERNAME === 'YOUR_GITHUB_USERNAME') return
+    if (!inView || GITHUB_USERNAME === 'ifeoluwaolutide77-arch') return
     setLoading(true)
 
     fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=9`)
@@ -136,7 +136,7 @@ export default function GitHubRepos() {
       })
   }, [inView])
 
-  const isPlaceholder = GITHUB_USERNAME === 'YOUR_GITHUB_USERNAME'
+  const isPlaceholder = GITHUB_USERNAME === 'ifeoluwaolutide77-arch'
 
   // Placeholder repos for display
   const placeholderRepos: Repo[] = [
