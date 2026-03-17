@@ -9,7 +9,7 @@ import { SiUpwork, SiWhatsapp } from 'react-icons/si'
 // ✏️ REPLACE with your actual contact info
 const contacts = {
   email: 'ifeoluwaolutide1@gmail.com',
-  linkedin: 'www.linkedin.com/in/ifeoluwaolutide',
+  linkedin: 'https://linkedin.com/in/ifeoluwaolutide',
   github: 'https://github.com/ifeoluwaolutide77-arch',
   twitter: 'https://twitter.com/heiskintsugi',
   whatsapp: 'https://wa.me/2348146406950',
